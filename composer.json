@@ -1,6 +1,14 @@
 {
     "name": "nikjaysix/laravel-ical",
     "description": "Laravel 5 wrapper for eluceo/ical package",
+    "keywords": [
+        "ical",
+        "php ical",
+        "icalendar",
+        "ics",
+        "calendar",
+        "laravel"
+    ],
     "type": "package",
     "require": {
         "eluceo/ical": "^0.12.1"
@@ -12,5 +20,10 @@
             "email": "hello@nikjaysix.com.au"
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "NikJaySix\\LaravelIcal\\": "src/"
+        }
+    }
 }
