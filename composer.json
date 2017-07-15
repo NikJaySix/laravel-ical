@@ -1,5 +1,5 @@
 {
-    "name": "nik/laravel-ical",
+    "name": "nikjaysix/laravel-ical",
     "description": "Laravel 5 wrapper for eluceo/ical package",
     "type": "package",
     "require": {
