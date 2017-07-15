@@ -1,0 +1,16 @@
+{
+    "name": "nik/laravel-ical",
+    "description": "Laravel 5 wrapper for eluceo/ical package",
+    "type": "package",
+    "require": {
+        "eluceo/ical": "^0.12.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nicole Jay",
+            "email": "hello@nikjaysix.com.au"
+        }
+    ],
+    "minimum-stability": "stable"
+}
